@@ -1,6 +1,7 @@
 
 import Image from 'next/image'
 import "./profile.css"
+import { SocialPanel } from '../social-panel/socialpanel'
 
 export default function Profile(props:any) {
     return (
@@ -13,6 +14,7 @@ export default function Profile(props:any) {
           height={180}
         />
         <p className="card__name">{props.userName}</p>
+        <SocialPanel socialNetworkMap={props.socialNetworkMap}/>
         <button className="btn draw-border">Message</button>
       </div>
     )
