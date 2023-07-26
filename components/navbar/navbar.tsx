@@ -6,6 +6,7 @@ import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
 import {SidebarData} from './sidebarData'
 import {IconContext} from 'react-icons'
+import Link from "next/link";
 
 export function Navbar(){
     const [sidebar, setSidebar] = useState(false)
@@ -24,10 +25,10 @@ export function Navbar(){
                     {SidebarData.map((item, index)=>{
                         return (
                             <li key={index} className={item.cName}>
-                                <a>
+                                <Link href={item.path}>
                                     {item.icon}
                                     {sidebar?<span>{item.title}</span>:null}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })}

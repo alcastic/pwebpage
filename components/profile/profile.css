@@ -1,18 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
 
-.container {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 50px;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f5f5f5;
-  font-family: 'Baloo Paaji 2', cursive;
-}
-
 .card {
-  height: 37rem;
   border-radius: 5px;
   display: flex;
   flex-direction: column;

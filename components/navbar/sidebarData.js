@@ -14,7 +14,7 @@ export const SidebarData = [
     },
     {
         title:'Go in Depth',
-        path:'/',
+        path:'/go',
         icon: <TbIcons.TbBrandGolang/>,
         cName: "nav-text"
     }
