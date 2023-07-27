@@ -10,12 +10,12 @@ export const SidebarData = [
         title:'Me',
         path:'/',
         icon: <ImIcons.ImProfile />,
-        cName: "nav-text"
+        cName: "navmenu-text"
     },
     {
         title:'Go in Depth',
         path:'/go',
         icon: <TbIcons.TbBrandGolang/>,
-        cName: "nav-text"
+        cName: "navmenu-text"
     }
 ]

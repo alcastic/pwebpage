@@ -1,5 +1,3 @@
-
-import NavContent from '@/components/navcontent/navcontent'
 import Profile from '../components/profile/profile'
 import {userName} from './appconst'
 import {socialNetworkMap} from './appconst'
@@ -7,7 +5,7 @@ import { SocialPanel } from '@/components/social-panel/socialpanel'
 
 export default function Home() {
   return (
-    <main className="page-content">
+    <main>
       <Profile userName={userName}/>
       <SocialPanel socialNetworkMap={socialNetworkMap}/>
       <p>
@@ -20,7 +18,7 @@ export default function Home() {
         Nowadays, I am keen on Software Architecture such as Event-Driven Microservices and Cloud Architecture Models. In my spare time I spend hours implementing concurrency patterns (mostly in Golang) and reading IT books. I am always eager to share knowledge.
       </p>
       <p>
-        I'm eager about my next career step and I look forward to being part of a new team.
+        I am eager about my next career step and I look forward to being part of a new team.
       </p>
     </main>
   )
