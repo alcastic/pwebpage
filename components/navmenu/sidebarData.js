@@ -7,9 +7,8 @@ export const SidebarData = [
         sectionName: "My Space",
         items: [
             {
-                id: 'me',
-                title: 'Me',
                 path: '/',
+                title: 'Me',
                 icon: <ImIcons.ImProfile />,
                 cName: "navmenu-text"
             }
@@ -19,16 +18,14 @@ export const SidebarData = [
         sectionName: "Go in Depth",
         items: [
             {
-                id: 'introduction',
-                title: 'Introduction',
                 path: '/go',
+                title: 'Introduction',
                 icon: <TbIcons.TbBrandGolang />,
                 cName: "navmenu-text"
             },
             {
-                id: 'cancellation-signal',
-                title: 'Cancellation Signal',
                 path: '/go/cancellation-signal',
+                title: 'Cancellation Signal',
                 icon: <TbIcons.TbBrandGolang />,
                 cName: "navmenu-text"
             }

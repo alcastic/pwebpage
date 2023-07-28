@@ -6,7 +6,7 @@ import { SidebarData } from './sidebarData'
 import { NavmenuItem } from './navmenu-item/navmenu-item'
 
 export function Navmenu() {
-    const [activeItem, setActiveItem] = useState(SidebarData[0].items[0].id)
+    const [activeItem, setActiveItem] = useState(SidebarData[0].items[0].path)
     return (
         <div className={'navmenu'}>
             <div className="vspacing" />
@@ -18,7 +18,7 @@ export function Navmenu() {
                             {section.items.map((item, index) => {
                                 return (
                                     <li key={index}>
-                                        <NavmenuItem item={item} onClick={() => setActiveItem(item.id)} isActive={item.id === activeItem} />
+                                        <NavmenuItem item={item} onClick={() => setActiveItem(item.path)} isActive={item.path === activeItem} />
                                     </li>
                                 )
                             })}
