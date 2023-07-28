@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import './socialpanel.css'
 
-export function SocialPanel(props:any){
+export function SocialPanel(props: any) {
     return (
         <div className="flex-container">
             <a href={props.socialNetworkMap['discord']} target="_blank" rel="noreferrer">

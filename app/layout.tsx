@@ -21,7 +21,7 @@ export default function RootLayout({
         <div className='pwebpage'>
           <div className='pwebpage__layout'>
             <div className='pwebpage__layout__main'>
-            {children}
+              {children}
             </div>
             <div className='pwebpage__layout__navbar'>
               <Navmenu />

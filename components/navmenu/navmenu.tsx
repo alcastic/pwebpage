@@ -2,22 +2,30 @@
 
 import React, { useState } from "react";
 import './navmenu.css'
-import {SidebarData} from './sidebarData'
-import {NavmenuItem} from './navmenu-item/navmenu-item'
+import { SidebarData } from './sidebarData'
+import { NavmenuItem } from './navmenu-item/navmenu-item'
 
-export function Navmenu(){
+export function Navmenu() {
+    const [activeItem, setActiveItem] = useState(SidebarData[0].items[0].id)
     return (
         <div className='par'>
             <div className={'navmenu'}>
-                <ul className="navmenu-item">
-                {SidebarData.map((item, index)=>{
+                {SidebarData.map((section, index) => {
                     return (
-                        <li key={index} className={item.cName}>
-                            <NavmenuItem item={item}/>
-                        </li>
+                        <>
+                            <span>{section.sectionName}</span>
+                            <ul className="navmenu-item">
+                                {section.items.map((item, index) => {
+                                    return (
+                                        <li key={index}>
+                                            <NavmenuItem item={item} onClick={() => setActiveItem(item.id)} isActive={item.id === activeItem} />
+                                        </li>
+                                    )
+                                })}
+                            </ul>
+                        </>
                     )
                 })}
-                </ul>
             </div>
         </div>
     )

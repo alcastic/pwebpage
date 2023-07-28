@@ -3,7 +3,7 @@
     width: 80px;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     top: 0;
     transition: 850ms;
     width: 250px;

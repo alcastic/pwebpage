@@ -8,10 +8,6 @@
     text-decoration: none;
 }
 
-.navmenu-item-active {
-    font-weight: bold;
-}
-
 .navmenu-text {
     display: flex;
     justify-content: start;
@@ -19,23 +15,30 @@
     padding: 8px 0px 8px 16px;
     list-style: none;
     height: 60px;
+
+
+}
+
+.navmenu-text-active {
+    background-color: rgb(188, 190, 190);
+    font-weight: bold;
 }
 
 .navmenu-text a {
+    display: flex;
     text-decoration: none;
     font-size: 18px;
     width: 95%;
     height: 100%;
-    display: flex;
     align-items: center;
     padding: 0 16px;
     border-radius: 4px;
 }
 
-.navmenu-text a:hover {
-    background-color: aquamarine;
+.navmenu-text:hover {
+    background-color: rgb(188, 190, 190);
 }
 
-span{
+span {
     margin-left: 16px;
 }
