@@ -1,6 +1,4 @@
-"use client"
-import './cancellation-signal.css'
-import * as CodeSample from './code-sample'
+import * as CodeSamples from './code-samples'
 
 export default function CancellationSignal() {
     return (
@@ -14,7 +12,7 @@ export default function CancellationSignal() {
             </p>
             <pre>
                 <code>
-                    {CodeSample.sample01}
+                    {CodeSamples.sample01}
                 </code>
             </pre>
             <p>
@@ -22,7 +20,7 @@ export default function CancellationSignal() {
             </p>
             <pre>
                 <code>
-                    {CodeSample.sample02}
+                    {CodeSamples.sample02}
                 </code>
             </pre>
             <p>
@@ -33,7 +31,7 @@ export default function CancellationSignal() {
             </p>
             <pre>
                 <code>
-                    {CodeSample.sample03}
+                    {CodeSamples.sample03}
                 </code>
             </pre>
             <p>
@@ -41,7 +39,7 @@ export default function CancellationSignal() {
             </p>
             <pre>
                 <code>
-                    {CodeSample.sample04}
+                    {CodeSamples.sample04}
                 </code>
             </pre>
             <p>
@@ -49,7 +47,7 @@ export default function CancellationSignal() {
             </p>
             <pre>
                 <code>
-                    {CodeSample.sample05}
+                    {CodeSamples.sample05}
                 </code>
             </pre>
 
