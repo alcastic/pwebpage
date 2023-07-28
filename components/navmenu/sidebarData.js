@@ -24,6 +24,13 @@ export const SidebarData = [
                 path: '/go',
                 icon: <TbIcons.TbBrandGolang />,
                 cName: "navmenu-text"
+            },
+            {
+                id: 'cancellation-signal',
+                title: 'Cancellation Signal',
+                path: '/go/cancellation-signal',
+                icon: <TbIcons.TbBrandGolang />,
+                cName: "navmenu-text"
             }
         ]
     }
