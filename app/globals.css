@@ -1,9 +1,10 @@
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+
+* {
   font-family: "Gill Sans", sans-serif;
+  line-height: 1.4;
 }
 
 body {
@@ -11,23 +12,22 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
-.pwebpage{
+.pwebpage {
   display: block;
 }
 
-.pwebpage__layout{
-  margin:auto;
+.pwebpage__layout {
+  margin: auto;
   max-width: 1336px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.pwebpage__layout__main{
+.pwebpage__layout__main {
   min-width: 800px;
   max-width: 800px;
-  border: 1px ;
-  border-style: dotted;
+  padding-top: 3rem;
 }
 
 .pwebpage__layout__navbar {
@@ -38,58 +38,4 @@ body {
   min-width: 368px;
   min-height: 100vh;
   border-left: 1px solid rgb(242, 242, 242);
-}
-
-.draw-border {
-  box-shadow: inset 0 0 0 4px #eb196e;
-  color: #eb196e;
-  -webkit-transition: color 0.25s 0.0833333333s;
-  transition: color 0.25s 0.0833333333s;
-  position: relative;
-}
-
-.draw-border::before,
-.draw-border::after {
-  border: 0 solid transparent;
-  box-sizing: border-box;
-  content: '';
-  pointer-events: none;
-  position: absolute;
-  width: 0rem;
-  height: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.draw-border::before {
-  border-bottom-width: 4px;
-  border-left-width: 4px;
-}
-
-.draw-border::after {
-  border-top-width: 4px;
-  border-right-width: 4px;
-}
-
-.draw-border:hover {
-  color: #ffe593;
-}
-
-.draw-border:hover::before,
-.draw-border:hover::after {
-  border-color: #55d7dc;
-  -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
-  transition: border-color 0s, width 0.25s, height 0.25s;
-  width: 100%;
-  height: 100%;
-}
-
-.draw-border:hover::before {
-  -webkit-transition-delay: 0s, 0s, 0.25s;
-  transition-delay: 0s, 0s, 0.25s;
-}
-
-.draw-border:hover::after {
-  -webkit-transition-delay: 0s, 0.25s, 0s;
-  transition-delay: 0s, 0.25s, 0s;
 }
