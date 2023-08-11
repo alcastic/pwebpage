@@ -12,7 +12,7 @@ export function Navmenu() {
       <div className="vspacing" />
       {SidebarData.map((section, index) => {
         return (
-          <>
+          <div key={index}>
             <span>{section.sectionName}</span>
             <ul className="navmenu-item">
               {section.items.map((item, index) => {
@@ -27,7 +27,7 @@ export function Navmenu() {
                 );
               })}
             </ul>
-          </>
+          </div>
         );
       })}
     </div>

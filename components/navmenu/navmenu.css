@@ -6,8 +6,7 @@
   flex-direction: column;
   top: 0;
   transition: 850ms;
-  width: 250px;
-  transition: 350ms;
+  width: 300px;
 }
 
 .vspacing {

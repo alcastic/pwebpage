@@ -27,8 +27,8 @@ body {
   position: relative;
   display: block;
   box-sizing: border-box;
-  max-width: 368px;
-  min-width: 368px;
+  max-width: 400px;
+  min-width: 300px;
   min-height: 100vh;
   border-left: 1px solid rgb(242, 242, 242);
 }
