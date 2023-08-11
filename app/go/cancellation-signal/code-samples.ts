@@ -18,7 +18,7 @@ func main() {
 	for v := range stream {
 		fmt.Println(v)
 	}
-}`
+}`;
 
 export const sample02: string = `package main
 
@@ -46,7 +46,7 @@ func main() {
 	for v := range stream {
 		fmt.Println(v)
 	}
-}`
+}`;
 
 export const sample03: string = `package main
 
@@ -79,7 +79,7 @@ func main() {
 	for v := range stream {
 		fmt.Println(v)
 	}
-}`
+}`;
 
 export const sample04: string = `package main
 
@@ -110,7 +110,7 @@ func main() {
 	for v := range stream {
 		fmt.Println(v)
 	}
-}`
+}`;
 
 export const sample05: string = `package main
 
@@ -142,4 +142,4 @@ func main() {
 	for v := range intStream(ctx.Done()) {
 		fmt.Println(v)
 	}
-}`
+}`;

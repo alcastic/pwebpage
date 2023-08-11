@@ -1,44 +1,42 @@
 .navmenu-item {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    color: inherit;
-    font: inherit;
-    list-style: none;
-    text-align: inherit;
-    text-decoration: none;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color: inherit;
+  font: inherit;
+  list-style: none;
+  text-align: inherit;
+  text-decoration: none;
 }
 
 .navmenu-text {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 8px 0px 8px 16px;
-    list-style: none;
-    height: 60px;
-
-
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
 }
 
 .navmenu-text-active {
-    background-color: rgb(188, 190, 190);
-    font-weight: bold;
+  background-color: rgb(188, 190, 190);
+  font-weight: bold;
 }
 
 .navmenu-text a {
-    display: flex;
-    text-decoration: none;
-    font-size: 18px;
-    width: 95%;
-    height: 100%;
-    align-items: center;
-    padding: 0 16px;
-    border-radius: 4px;
+  display: flex;
+  text-decoration: none;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
 }
 
 .navmenu-text:hover {
-    background-color: rgb(188, 190, 190);
+  background-color: rgb(188, 190, 190);
 }
 
 span {
-    margin-left: 16px;
+  margin-left: 16px;
 }

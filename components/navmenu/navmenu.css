@@ -1,15 +1,15 @@
 .navmenu {
-    position: fixed;
-    width: 80px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    top: 0;
-    transition: 850ms;
-    width: 250px;
-    transition: 350ms;
+  position: fixed;
+  width: 80px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  transition: 850ms;
+  width: 250px;
+  transition: 350ms;
 }
 
 .vspacing {
-    min-height: 3rem;
+  min-height: 3rem;
 }
